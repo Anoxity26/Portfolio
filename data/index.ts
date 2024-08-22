@@ -109,67 +109,50 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Gulshan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gulshan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gulshan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Throughout the journey, Gulshan proved himself to be a top-tier developer, always going the extra mile to ensure the project's success. His dedication and expertise were evident in every interaction, making him an essential asset to our team.",
+    name: "Aarohi",
+    title: "Cofounder, Just Abroad",
   },
   {
     quote:
-      "Collaborating with Gulshan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gulshan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gulshan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From day one, Gulshan demonstrated an extraordinary level of dedication. His attention to detail, proactive approach, and clear communication ensured the project's success. If you're looking for a developer who consistently delivers quality work, Gulshan is the one.",
+    name: "Manish Dipankar",
+    title: "Cofounder, Girmantech",
   },
   {
     quote:
-      "Collaborating with Gulshan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gulshan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gulshan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Gulshan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gulshan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gulshan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Gulshan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gulshan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gulshan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From the moment we started working with Gulshan, we knew we were in good hands. He communicated clearly, worked efficiently, and delivered a website that exceeded our expectations.",
+    name: "Aparna Sridhar",
+    title: "Founder, Agripal",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
+    name: "Just Abroad",
+    img: "/just.png",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
+    name: "SuperHR",
+    img: "/hr.png",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
+    name: "GirmanTech",
+    img: "/girman.png",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
+    name: "Agripal",
+    img: "/agripal.png",
     nameImg: "/streamName.svg",
   },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
+  
 ];
 
 export const workExperience = [
