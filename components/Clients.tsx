@@ -16,7 +16,7 @@ const Clients = () => {
       <div className="flex flex-col items-center max-lg:mt-10">
         <InfiniteMovingCards
           items={testimonials}
-          direction="right"
+          direction="left"
           speed="slow"
         />
 
