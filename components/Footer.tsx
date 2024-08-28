@@ -1,21 +1,37 @@
 import { FaLocationArrow } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
 const Footer = () => {
+const handleCall = (phoneNumber: String) => {
+  // Check if user is on mobile device
+  if (
+    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    )
+  ) {
+    // Use a tel link to open the phone app with the number pre-filled
+    window.location.href = `tel:${phoneNumber}`;
+  } else {
+    // Inform user that call can't be initiated directly on desktop
+    alert(
+      "Call functionality is not available on desktop devices. Please use a phone to call."
+    );
+  }
+};
+
+const handleWhatsapp = (phoneNumber: String) => {
+  // Open WhatsApp chat with pre-filled number (might require additional setup)
+  const whatsappUrl = `https://wa.me/${phoneNumber}`;
+  window.open(whatsappUrl, "_blank"); // Check compatibility for your region
+};
+
   return (
     <footer className="w-full  pb-10 mb-[100px] md:mb-5" id="contact">
-      {/* background grid */}
-      {/* <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
-          src="/footer-grid.svg"
-          alt="grid"
-          className="w-full h-full opacity-50 "
-        />
-      </div> */}
-
+      
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
           Ready to take <span className="text-purple">your</span> digital
@@ -34,11 +50,20 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
-          Gulshan Kumar <span>7505566716</span>
-        </p>
+        
+        <div className="mr-2 flex gap-2">Contact: 
+          <FaWhatsapp
+            className="mr-1 mt-1 cursor-pointer"
+            onClick={() => handleWhatsapp("7505566716")}
+          />{" "}
+          <FaPhone
+            className="mr-1 mt-1 cursor-pointer"
+            onClick={() => handleCall("7505566716")}
+          />
+          7505566716
+        </div>{" "}
 
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3 gap-6 mt-4 md:mt-0">
           {socialMedia.map((info) => (
             <div
               key={info.id}
