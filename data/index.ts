@@ -77,7 +77,7 @@ export const projects = [
     title: "DynamicPortfolio",
     des: "Transforming Ideas into Seamless User Experiences",
     img: "/p1.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://gk16.netlify.app/",
   },
   {
@@ -85,7 +85,7 @@ export const projects = [
     title: "VirtualReality",
     des: "Empower your creativity and bring your VR app ideas to life with our intuitive development tools. Get started today and turn your imagination into immersive reality!",
     img: "/p2.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/vite.svg", "/tail.svg", "/ts.svg", "/c.svg"],
     link: "https://vreal.netlify.app/",
   },
   {
@@ -93,7 +93,7 @@ export const projects = [
     title: "SuperHrWeb",
     des: "Our recruiting CRM supports personal email sign-ups, ensuring your talent network remains yours, no matter where your career takes you.",
     img: "/p3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://superhrweb.netlify.app/",
   },
   {
