@@ -191,14 +191,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/github.svg",
+    link: "https://github.com/Anoxity26",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/wapp.svg",
+    link: "https://wa.me/7505566716",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/gulshank1602/",
   },
 ];
