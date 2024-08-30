@@ -37,8 +37,8 @@ const Footer = () => {
           presence to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          Let's team up and make things happen. Reach out today, and let's
+          discuss a path to success.
         </p>
         <a href="mailto:gulshank1602@gmail.com" target="_blank">
           <MagicButton
